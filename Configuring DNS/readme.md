@@ -1,7 +1,7 @@
 ## Overview
-I will be configuring DNS name resolution for Contoso Ltd. You will create a private DNS zone named contoso.com, link the VNets for registration and resolution, and then create two virtual machines and test the configuration.
+I will be configuring DNS name resolution for Contoso Ltd by creating a private DNS zone named contoso.com, link the VNets for registration and resolution, and then create two virtual machines to test the configuration.
 
-##### In this exercise, I will:
+##### Breakdown of this exercise:
 
 - Task 1: Create a private DNS Zone
 - Task 2: Link subnet for auto registration
