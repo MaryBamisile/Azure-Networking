@@ -45,4 +45,43 @@ $RGName = "Az700-RG"
 New-AzResourceGroupDeployment -ResourceGroupName $RGName -TemplateFile azuredeploy.json -TemplateParameterFile azuredeploy.parameters.json
 ```
 
+- When the deployment is complete, go to the Azure portal home page, and then select Virtual Machines.
+- Verify that both virtual machines have been created.
 
+![image](https://github.com/user-attachments/assets/85d0221e-0f50-4936-a67a-b6058206a4ea)
+
+#### Task 4: Verify records are present in the DNS zone
+
+- On the Azure Portal home page, select Private DNS zones.
+- On Private DNS zones, select contoso.com.
+- Verify that host (A) records are listed for both VMs, as shown below:
+
+<img width="890" alt="image" src="https://github.com/user-attachments/assets/f0de1961-c337-4c67-bc08-b6763eae93d0" />
+
+PS: Make a note of the names and IP addresses of the VMs.
+
+##### Conclusion
+- Connect to a VM to test the name resolution
+- On the Azure Portal home page, select Virtual Machines.
+- Select TestVM1.
+- On TestVM1, select Connect > Connect and download the RDP file. Ensure the file downloads successfully.
+- Locate the RDP file and double-click to execute the file.
+- Select Connect and provide the TestUser password you provided during the template deployment.
+- Select Okay and then Yes at the warning page.
+- On TestVM1, open a command prompt and enter the command ipconfig /all.
+
+Notice the IP address is the same as the one in the DNS zone.
+
+Enter the command ping TestVM2.contoso.com. This command will timeout because of the Windows Firewall that is enabled on the VMs.
+
+Instead, use nslookup TestVM2.contoso.com command to verify that you receive a successful name resolution record for VM2. This demonstrates private zone name resolution.
+
+![image](https://github.com/user-attachments/assets/a3183838-a9b4-43ff-8b82-7be8b44e75b2)
+
+
+#### Here are the main takeaways for this lab.
+
+Azure DNS is a cloud service that allows you to host and manage domain name system (DNS) domains, also known as DNS zones.
+Azure DNS public zones host domain name zone data for records that you intend to be resolved by any host on the internet.
+Azure Private DNS zones allow you to configure a private DNS zone namespace for private Azure resources.
+A DNS zone is a collection of DNS records. DNS records provide information about the domain.
