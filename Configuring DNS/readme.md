@@ -25,4 +25,11 @@ I will be configuring DNS name resolution for Contoso Ltd. You will create a pri
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/3d5b5b7b-e5c4-44f5-97aa-bbc056f0e11d" />
 
+###### Verify that the CoreServicesVnetLink has been created, and that auto-registration is enabled.
+
+![image](https://github.com/user-attachments/assets/70101b31-1a1a-4507-9ccb-b7d4e67f0acd)
+
+
+
+
 
