@@ -29,7 +29,20 @@ I will be configuring DNS name resolution for Contoso Ltd. You will create a pri
 
 ![image](https://github.com/user-attachments/assets/70101b31-1a1a-4507-9ccb-b7d4e67f0acd)
 
+#### Task 3: Create Virtual Machines to test the configuration
 
+- In the Azure portal, select the Cloud Shell icon (top right). If necessary, configure the shell.
+- Select PowerShell.
+- On the toolbar of the Cloud Shell pane, select the Manage Files icon, in the drop-down menu, select Upload and upload the template files: azuredeploy.json and azuredeploy.parameters.json and run the command below (remeber to replace the RG with your resource group name if different)
+  
+###### PS: The template files used are both in this repo folder
 
+#### Note: You will be prompted to provide an Admin password. You will need this password in a later step.
+
+```
+$RGName = "Az700-RG"
+   
+New-AzResourceGroupDeployment -ResourceGroupName $RGName -TemplateFile azuredeploy.json -TemplateParameterFile azuredeploy.parameters.json
+```
 
 
