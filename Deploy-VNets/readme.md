@@ -9,3 +9,6 @@ Consider the fictional organization Contoso Ltd, which is in the process of migr
 
 ![image](https://github.com/user-attachments/assets/0b6f8ec0-b323-47a4-b06c-388426b4b38c)
 
+Let's get to work:
+![image](https://github.com/user-attachments/assets/52e71e86-fdf9-4027-bcc3-077b5f0004d7)
+
