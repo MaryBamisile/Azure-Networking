@@ -7,3 +7,22 @@ I will be configuring DNS name resolution for Contoso Ltd. You will create a pri
 - Task 2: Link subnet for auto registration
 - Task 3: Create Virtual Machines to test the configuration
 - Task 4: Verify records are present in the DNS zone
+
+#### Task 1: Create a private DNS Zone
+- Go to [Azure Portal](https://portal.azure.com).
+- On the Azure home page, in the search bar, enter dns, and then select Private DNS zones.
+
+<img width="395" alt="image" src="https://github.com/user-attachments/assets/eaa65299-cfb3-4ecb-b2dc-9ae1f32c80a3" />
+
+- In Private DNS zones, select + Create.
+- Fill the appropriate information in the columns to create the private DNS zone.
+
+![image](https://github.com/user-attachments/assets/b2f53023-5c65-4153-803b-d979be7cda60)
+
+#### Task 2: Link subnet for auto registration
+- In Contoso.com, under DNS Management, select Virtual network links.
+- On Contoso.com >> Virtual network links >> select + Add.
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/3d5b5b7b-e5c4-44f5-97aa-bbc056f0e11d" />
+
+
