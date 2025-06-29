@@ -1,5 +1,7 @@
-### OVERVIEW
+# OVERVIEW
 Consider the fictional organization Contoso Ltd, which is in the process of migrating infrastructure and applications to Azure. Imagining that my role entails planning and implementing three virtual networks and subnets to support resources in those virtual networks.
+
+## Virtual Networks to be created:
 
 - The CoreServicesVnet virtual network is deployed in the East US region. This virtual network will have the largest number of resources. It will have connectivity to on-premises networks through a VPN connection. This network will have web services, databases, and other systems that are key to the operations of the business. Shared services, such as domain controllers and DNS also will be located here. A large amount of growth is anticipated, so a large address space is necessary for this virtual network.
 
@@ -10,5 +12,6 @@ Consider the fictional organization Contoso Ltd, which is in the process of migr
 ![image](https://github.com/user-attachments/assets/0b6f8ec0-b323-47a4-b06c-388426b4b38c)
 
 Let's get to work:
+
 ![image](https://github.com/user-attachments/assets/52e71e86-fdf9-4027-bcc3-077b5f0004d7)
 
