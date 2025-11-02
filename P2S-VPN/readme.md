@@ -37,3 +37,14 @@ Now, it is connected:
 ## Creation of Virtual Machine
 
 <img width="582" height="458" alt="image" src="https://github.com/user-attachments/assets/59802538-4246-4bf3-8b18-1c416f996658" />
+
+
+### CURIOSITY Section:
+I was curious how I'm able to access the internet from the VM withour having public IP.
+
+##### Simple answer to that curiosity: The NSG associated with the VMs NIC/Subnet has the default Internet Outbound rule. The outbound internet connections will use a random IP belonging to Azure. (This IP might change depending upon availability)
+
+- This is documented here : https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/default-outbound-access
+
+
+
