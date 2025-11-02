@@ -99,6 +99,7 @@ Yayyy, we are in
 
 <img width="801" height="549" alt="image" src="https://github.com/user-attachments/assets/d33d1ea3-7ecf-47d4-b05e-1bceb5341260" />
 
+Helpful guide: https://www.ais.com/how-to-configure-point-to-site-vpn-connection-using-azure-certificate-authentication/
 
 ### CURIOSITY Section:
 I was curious how I'm able to access the internet from the VM withour having public IP.
