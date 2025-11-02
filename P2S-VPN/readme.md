@@ -46,5 +46,14 @@ I was curious how I'm able to access the internet from the VM withour having pub
 
 - This is documented here : https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/default-outbound-access
 
+#### Plot twist: After March 31, 2026, this method will no longer work without using NAT Gateway,
+
+<img width="890" height="242" alt="image" src="https://github.com/user-attachments/assets/f0d9c188-9ffa-452d-8cef-5428eed2359a" />
+
+#### Hence, start transitioning by adding an explicit outbound method:
+- Associate a NAT gateway to the subnet of your virtual machine. Note this is the recommended method for most scenarios.
+- Associate a standard load balancer configured with outbound rules.
+- Associate a Standard public IP to any of the virtual machine's network interfaces.
+- Add a Firewall or Network Virtual Appliance (NVA) to your virtual network and point traffic to it using a User Defined Route (UDR)
 
 
