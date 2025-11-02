@@ -21,8 +21,17 @@ Afer creating, go to the created resource and configure
 <img width="275" height="203" alt="image" src="https://github.com/user-attachments/assets/efe2dce9-f6cb-46e9-92fa-ab46bd04dbab" />
 
 
+Conituation of VPN confirguration........
 
+Now, download Azure VPN client and also the VPN configuration file
 
+On the Azure VPM client application, click + and import and save
+
+<img width="678" height="691" alt="image" src="https://github.com/user-attachments/assets/478855d1-1737-49f6-972c-b738bc792173" />
+
+Now, it is connected:
+
+<img width="473" height="595" alt="image" src="https://github.com/user-attachments/assets/c1cff780-63cc-40e5-a99e-cb681cd3a211" />
 
 
 ## Creation of Virtual Machine
