@@ -89,9 +89,15 @@ Now, it is connected:
 <img width="473" height="595" alt="image" src="https://github.com/user-attachments/assets/c1cff780-63cc-40e5-a99e-cb681cd3a211" />
 
 
-## Creation of Virtual Machine
+## Creation of Virtual Machine and connecting via RDP (using private IP)
 
 <img width="582" height="458" alt="image" src="https://github.com/user-attachments/assets/59802538-4246-4bf3-8b18-1c416f996658" />
+
+<img width="819" height="466" alt="image" src="https://github.com/user-attachments/assets/5af59f89-dc74-4173-bc8c-2fdbfdf2a84c" />
+
+Yayyy, we are in
+
+<img width="801" height="549" alt="image" src="https://github.com/user-attachments/assets/d33d1ea3-7ecf-47d4-b05e-1bceb5341260" />
 
 
 ### CURIOSITY Section:
